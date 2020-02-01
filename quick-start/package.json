@@ -1,23 +1,6 @@
-{
-  "name": "messenger-quick-start",
-  "version": "1.0.0",
-  "description": "An example webhook for Facebook Messenger quick start tutorial.",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fbsamples/messenger-platform-samples.git"
-  },
-  "author": "Facebook",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.13.4",
-    "request": "^2.72.0"
-  },
-  "engines": {
-    "node": "~4.1.2"
-  }
-}
+mkdir messenger-webhook         // Creates a project directory
+cd messenger-webhook            // Navigates to the new directory
+touch index.js                  // Creates empty index.js file.
+npm init                        // Creates package.json. Accept default for all questions.
+npm install express body-parser --save // Installs the express.js http server framework module, 
+                                               // and then adds them to the dependencies section of package.json file.
